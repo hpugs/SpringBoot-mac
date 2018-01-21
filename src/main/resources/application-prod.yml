@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  context-path: /
+
+name: hpugs
+age: 35
+content: name:${name};age:${age}
+
+userInfo:
+  names: 小破孩
+  age: 25
+  content: name:${userInfo.names};age:${userInfo.age}
